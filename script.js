@@ -22,7 +22,7 @@ codes.forEach((code,idx)=>{
 				codes[idx-1].value='';
 			}
 		}else if(e.key>='0' && e.key<='9'){}
-		elseif(e.key!=='Tab'){
+		else if(e.key!=='Tab'){
 			e.preventDefault();
 		}
 	});
